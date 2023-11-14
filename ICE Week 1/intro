@@ -1,0 +1,20 @@
+Part one
+Get started on developing C++ code on your laptop.
+
+One thing to note is the usage of compiler. Now open the file called ECCompilerTest1.c. Now run gcc to compile it and then run it. What does it do? 
+
+Did you notice the compiler warning? How to fix it? Can you make compiler give more warnings?
+
+Part two
+Now I am going to ask you to complete some coding in C. This is to test your C programming code skills. As you know, C is a subset of C++. You have learned C in CSE 3100. However, in the past, I have seen students still struggling with C programming. In this test, I want to check your coding skills in C. Don't worry about the score you get. I am going to post the solutions of the problems before the due date and you can resubmit to get better scores. Nonetheless, if you cannot solve these problems, it is an early indication that you need to improve your programming and debugging skills.
+
+1. You are given an array of integers (which can be positive or negative). You want to find the smallest integer in this array. If the array is empty, return 0; otherwise return the smallest value. 
+
+2. Test for triangle. You need to implement a function called ECTestTriangle which takes three integers. This function tests whether three integers can form a triangle where the given integers are the lengths of the three edges of the triangle. It returns 0 if yes, and -1 if not.  
+Note: triangle edge length must be positive (larger than 0) and sum of two sides is strictly larger than the third side. 
+
+3. Pointer and linked list
+Look at the files ECLinkedList.h and ECLinkedList.cpp. You need to implement two basic functions about linked lists. The linked list structure is defined in ECLinkedList.h.
+* Get the length of the linked list (i.e., the number of the nodes in the linked list)
+* Delete all nodes with a specific value in the linked list and return the pointer to the head of the updated linked list
+The purpose of this practice is testing whether you can write code to work with pointers. It also checks your ability in working with functions, and deal with simple programming logic. 
