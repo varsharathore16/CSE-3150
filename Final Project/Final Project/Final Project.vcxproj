@@ -162,7 +162,10 @@
     <ClInclude Include="SimpleObserver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ECController.cpp" />
+    <ClCompile Include="ECController.h" />
     <ClCompile Include="ECGraphicViewImp.cpp" />
+    <ClCompile Include="ECObserver.cpp" />
     <ClCompile Include="SimpleObserver.cpp" />
     <ClCompile Include="test-gv.cpp" />
   </ItemGroup>

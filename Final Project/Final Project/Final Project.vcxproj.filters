@@ -39,6 +39,15 @@
     <ClCompile Include="test-gv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ECObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECController.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="README.txt" />
