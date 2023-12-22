@@ -1,5 +1,30 @@
-﻿  ECGraphicViewImp.cpp
+﻿  ECController.h
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Final Project\Final Project\ECController.h(39,48): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  ECGraphicViewImp.cpp
+  ECObserver.cpp
   SimpleObserver.cpp
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Final Project\Final Project\ECController.h(39,48): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   test-gv.cpp
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Final Project\Final Project\ECController.h(39,48): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
-  Final Project.vcxproj -> C:\Users\varsh\Fall2023\CSE 3150\Final Project\x64\Debug\Final Project.exe
+x64\Debug\ECController.obj : warning LNK4042: object specified more than once; extras ignored
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::CreateRectangle(void)" (?CreateRectangle@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::CreateEllipse(void)" (?CreateEllipse@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::SetMode(void)" (?SetMode@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: int __cdecl ECController::GetMode(void)" (?GetMode@ECController@@QEAAHXZ) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::SetStartCursor(int,int)" (?SetStartCursor@ECController@@QEAAXHH@Z) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::SetStartCursorTest(int,int)" (?SetStartCursorTest@ECController@@QEAAXHH@Z) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::SetEndCursorTest(int,int)" (?SetEndCursorTest@ECController@@QEAAXHH@Z) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::SetEndCursor(int,int)" (?SetEndCursor@ECController@@QEAAXHH@Z) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::UpdateCursor(int,int)" (?UpdateCursor@ECController@@QEAAXHH@Z) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::ReDrawRectangle(void)" (?ReDrawRectangle@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::ReDrawEllipse(void)" (?ReDrawEllipse@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::MoveExistingShape(void)" (?MoveExistingShape@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::UnselectAll(void)" (?UnselectAll@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::DeleteShape(void)" (?DeleteShape@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: bool __cdecl ECController::GetEllipse(void)" (?GetEllipse@ECController@@QEAA_NXZ) referenced in function "public: virtual void __cdecl ECMouseObserver::Update(void)" (?Update@ECMouseObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::SetEllipse(void)" (?SetEllipse@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::FillShapes(void)" (?FillShapes@ECController@@QEAAXXZ) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::GroupShapes(int,int)" (?GroupShapes@ECController@@QEAAXHH@Z) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+SimpleObserver.obj : error LNK2019: unresolved external symbol "public: void __cdecl ECController::MoveByArrow(int)" (?MoveByArrow@ECController@@QEAAXH@Z) referenced in function "public: virtual void __cdecl ECKeyboardObserver::Update(void)" (?Update@ECKeyboardObserver@@UEAAXXZ)
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Final Project\x64\Debug\Final Project.exe : fatal error LNK1120: 19 unresolved externals

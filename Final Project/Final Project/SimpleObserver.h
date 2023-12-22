@@ -17,6 +17,7 @@
 #define SimpleObserver_h
 
 #include "ECObserver.h"
+#include "ECController.h"
 #include "ECGraphicViewImp.h"
 
 
@@ -31,5 +32,32 @@ private:
     ECGraphicViewImp& view;
     bool fIsSpaceBarPressed;
 };
+
+class ECKeyboardObserver : public ECObserver
+{
+public:
+    ECKeyboardObserver(ECGraphicViewImp& viewIn, ECController& ctrl);
+    virtual void Update();
+
+private:
+    ECGraphicViewImp& view;
+    ECController& controller;
+    // bool IsButtonPressed;
+    // bool EditMode;
+};
+
+class ECMouseObserver : public ECObserver
+{
+public:
+    ECMouseObserver(ECGraphicViewImp& viewIn, ECController& ctrl);
+    virtual void Update();
+
+private:
+    ECGraphicViewImp& view;
+    ECController& controller;
+    // bool IsMousePressed;
+    // bool IsMouseReleased;
+};
+
 
 #endif /* SimpleObserver_h */

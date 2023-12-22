@@ -1,0 +1,31 @@
+﻿  test-gv.cpp
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECController.h(39,48): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,19): error C2259: 'ECMouseObserver': cannot instantiate abstract class
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECController.h(161,7): message : see declaration of 'ECMouseObserver'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,19): message : due to following members:
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,19): message : 'void ECObserver::Update(void)': is abstract
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECObserver.h(23,18): message : see declaration of 'ECObserver::Update'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,24): error C2259: 'ECMouseObserver': cannot instantiate abstract class
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECController.h(161,7): message : see declaration of 'ECMouseObserver'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,24): message : due to following members:
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,24): message : 'void ECObserver::Update(void)': is abstract
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECObserver.h(23,18): message : see declaration of 'ECObserver::Update'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,24): error C2661: 'ECMouseObserver::ECMouseObserver': no overloaded function takes 2 arguments
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(17,24): message : while trying to match the argument list '(ECGraphicViewImp, ECController)'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,22): error C2259: 'ECKeyboardObserver': cannot instantiate abstract class
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECController.h(168,7): message : see declaration of 'ECKeyboardObserver'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,22): message : due to following members:
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,22): message : 'void ECObserver::Update(void)': is abstract
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECObserver.h(23,18): message : see declaration of 'ECObserver::Update'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,30): error C2259: 'ECKeyboardObserver': cannot instantiate abstract class
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECController.h(168,7): message : see declaration of 'ECKeyboardObserver'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,30): message : due to following members:
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,30): message : 'void ECObserver::Update(void)': is abstract
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\ECObserver.h(23,18): message : see declaration of 'ECObserver::Update'
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,30): error C2661: 'ECKeyboardObserver::ECKeyboardObserver': no overloaded function takes 2 arguments
+C:\Users\varsh\Fall2023\CSE 3150\John\CSE 3150\Proj2-part0-starter-code\test-gv.cpp(18,30): message : while trying to match the argument list '(ECGraphicViewImp, ECController)'
+  SimpleObserver.cpp
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Project1\SimpleObserver.h(37,1): error C2011: 'ECObserverSubject': 'class' type redefinition
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Proj-tutorial\ECObserver.h(29,7): message : see declaration of 'ECObserverSubject'
+C:\Users\varsh\Fall2023\CSE 3150\CSE-3150\Project1\SimpleObserver.cpp(3,10): fatal  error C1083: Cannot open include file: 'ECController.h': No such file or directory
+  Generating Code...

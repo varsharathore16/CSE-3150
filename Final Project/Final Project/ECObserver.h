@@ -12,14 +12,13 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
-#include "ECController.h"
+// #include "ECGraphicViewImp.h"
 // #include "ECGraphicViewImp.h"
 
 //********************************************
 // Observer design pattern: observer interface
 
-class ECGraphicViewImp;
-class ECController;
+
 
 class ECObserver
     // create sub classes for mouse and keyboard
@@ -32,31 +31,7 @@ private:
     // ECController controller;
 };
 
-class ECKeyboardObserver : public ECObserver
-{
-public:
-    ECKeyboardObserver(ECGraphicViewImp& viewIn, ECController& ctrl);
-    virtual void Update();
 
-private:
-    ECGraphicViewImp& view;
-    ECController& controller;
-    // bool IsButtonPressed;
-    // bool EditMode;
-};
-
-class ECMouseObserver : public ECObserver
-{
-public:
-    ECMouseObserver(ECGraphicViewImp& viewIn, ECController& ctrl);
-    virtual void Update();
-
-private:
-    ECGraphicViewImp& view;
-    ECController& controller;
-    // bool IsMousePressed;
-    // bool IsMouseReleased;
-};
 
 //********************************************
 // Observer design pattern: subject

@@ -82,10 +82,10 @@ extern ALLEGRO_COLOR arrayAllegroColors[ECGV_NUM_COLORS];
 //***********************************************************
 // Drawing context (thickness and so on)
 
-class ECDrawiingContext
+class ECDrawingContext
 {
 public:
-    ECDrawiingContext() : thickness(3), color(ECGV_NONE) {}
+    ECDrawingContext() : thickness(3), color(ECGV_NONE) {}
     void SetThickness(int t) { thickness = t; }
     int GetThickness() const { return thickness; }
     void SetColor(ECGVColor c) { color = c; }
